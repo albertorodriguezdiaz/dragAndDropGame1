@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drag and Drop</title>
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js" defer></script>
+<body>
+
+    <section class="puntaje">
+        <p class="infoPuntaje">Organiza los animales</p>
+        <p>Puntaje del juego: <span class="correctas">0</span></p>
+    </section>
+
+    <section class="figuras-arrastrables">
+        <i class="fas fa-html5 objArrastrable" draggable="true" style="color: #ff6384;" id="html"></i>
+        <i class="fas fa-css3-alt objArrastrable" draggable="true" style="color: #36a2eb;" id="css"></i>
+        <i class="fas fa-js-square objArrastrable" draggable="true" style="color: #ffce56;" id="js"></i>
+        <i class="fas fa-react objArrastrable" draggable="true" style="color: #9966ff;" id="react"></i>
+        <i class="fas fa-node objArrastrable" draggable="true" style="color: #4bc0c0;" id="node"></i>
+    </section>
+
+    <section class="caja-colocar">
+        <div class="objColocable" idObjColocable="react"><span>React</span></div>
+        <div class="objColocable" idObjColocable="html"><span>HTML</span></div>
+        <div class="objColocable" idObjColocable="node"><span>Node</span></div>
+        <div class="objColocable" idObjColocable="css"><span>CSS</span></div>
+        <div class="objColocable" idObjColocable="js"><span>JS</span></div>
+    </section>
+    
+</body>
+</html>
